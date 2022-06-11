@@ -1,0 +1,185 @@
+html{
+    font-size: 10px;
+}
+.border{
+    background-color:hsl(233, 47%, 7%);
+    height:100vh;
+    width:100vw;
+}
+.box{
+    height:350px;
+    width:890px;
+    background-color:hsl(244, 38%, 16%);
+ position:relative;
+ top:13rem;
+ left:8rem;
+ border-radius:1%;
+ 
+}
+.image img{
+    float:right;
+    height:350px;
+    width:40.5rem;
+    border-bottom-right-radius: 1%;
+    border-top-right-radius: 1%;
+
+}
+.box2{
+    
+    height:350px;
+    width:40.5rem;
+    border-bottom-right-radius: 1%;
+    border-top-right-radius: 1%;
+    background-color:hsl(277, 64%, 61%);
+    position:absolute;
+    left:48.5rem;
+    opacity:0.5;
+}
+.heading{
+    color:hsl(0, 0%, 100%);
+    font-size:2.7rem;
+    position:absolute;
+    top:3rem;
+    left:8rem;
+    right:53rem;
+    text-align: justify;
+    font-family:'Inter', sans-serif;
+    ;
+}
+.letter{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 1.1rem;
+    position: absolute;
+    top:15.5rem;
+    left:8rem;
+    right:54rem;
+    text-align: left;
+    font-family:'Lexend Deca', sans-serif;
+}
+.letter2{
+    color:hsl(0,0%,100%);
+    font-size: 2rem;
+    position: absolute;
+    top:25.5rem;
+    left:8rem;
+    right:56rem;
+    font-family:'Lexend Deca', sans-serif;
+}
+.letter3{
+    color:hsl(0,0%,100%);
+    font-size: 2rem;
+    position: absolute;
+    top:25.5rem;
+    left:18rem;
+    right:56rem;
+    font-family:'Lexend Deca', sans-serif;
+}
+.letter4{
+    color:hsl(0,0%,100%);
+    font-size: 2rem;
+    position: absolute;
+    top:25.5rem;
+    left:28rem;
+    right:56rem;
+    font-family:'Lexend Deca', sans-serif;
+}
+.letter5{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size: 1rem;
+    position: absolute;
+    top:28rem;
+    left:8rem;
+    right:56rem;
+}
+.letter6{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size: 1rem;
+    position: absolute;
+    top:28rem;
+    left:18rem;
+    right:56rem;
+    font-family:'Lexend Deca', sans-serif;
+}
+.letter7{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size: 1rem;
+    position: absolute;
+    top:28rem;
+    left:28rem;
+    right:56rem;
+    font-family:'Lexend Deca', sans-serif;
+}
+span{
+    color:hsl(277, 64%, 61%);
+}
+@media screen and (max-width:700px) and (min-width:200px){
+    .box{
+        position:relative;
+        left:2.3rem;
+        top:5rem;
+        height:630px;
+        width:330px;
+        border-radius: 1.5%;
+    }
+    .image img{
+        height: 200px;
+        width:330px;
+        border-top-right-radius: 1.5%;
+        border-top-left-radius: 1.5%;
+        border-bottom-right-radius:0%;
+    }
+    .box2{
+        height: 200px;
+        width:330px;
+        border-top-right-radius: 1.5%;
+        border-top-left-radius: 1.5%;
+        border-bottom-right-radius:0%;
+        position:absolute;
+        left:0rem;
+    }
+    .heading{
+        position:absolute;
+        top:21rem;
+        left:3rem;
+        right:3rem;
+        text-align: center;
+    }
+    .letter{
+        position:absolute;
+        top:35rem;
+        left:3rem;
+        right:2rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .letter2{
+        position:absolute;
+        left:15rem;
+        top:44rem;
+    }
+    .letter5{
+        position:absolute;
+        left:14.3rem;
+        top:46.5rem;
+    }
+    .letter3{
+        position: absolute;
+        left:15.5rem;
+        top:49.5rem;
+    }
+    .letter6{
+        position:absolute;
+        left:14.3rem;
+        top:52rem;
+    }
+    .letter4{
+        position: absolute;
+        left:15rem;
+        top:55rem;
+    }
+    .letter7{
+        position: absolute;
+        left:15rem;
+        top:57.5rem;
+    }
+}
